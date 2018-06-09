@@ -5,8 +5,8 @@ Created on Sat Jun  9 22:45:31 2018
 @author: yasar
 """
 
-#Pythonda tam sayıları otomatik olarak algılar sadece sayı yazmak yeterlidir.
-#Pythonda aritmatik işlem yapamak kullandığımız 4 işlem ile aynıdır.
+#Python tam sayıları otomatik olarak algılar sadece sayı yazmak yeterlidir.
+#Python aritmatik işlem yapamak kullandığımız 4 işlem ile aynıdır.
 
 """Toplama işlemi"""
 3+4
