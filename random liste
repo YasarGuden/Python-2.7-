@@ -1,0 +1,6 @@
+import random
+liste=list()
+for i in range(random.randint(1,1000)):
+    liste.append(random.random())
+x,s=len(liste),sum(liste)
+print x, "tane elemandan oluşan listenin toplamı=", s, "ortalaması=", s/x

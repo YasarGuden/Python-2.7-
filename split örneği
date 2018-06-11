@@ -1,0 +1,16 @@
+st="Hafta=4, Gun=1, Saat=9, Dakika=3"
+#Bu formatı tüm değerleri 1 arttırarak Hafta=5-Gun=2-Saat=10-Dakika=4
+
+print "Orijinal=>",st
+
+stl=st.split(",") #Önce virgüle gore ayırıyoruz.
+print "Virgüle göre parse edilmiş hali=>",st
+yeni=""
+
+for i in st1:
+    temp=i.split("=")
+    yeni+=(temp[0]+":"+str(int(temp[1])+1))
+    #yeni+=":".join([temp[0],str(int(temp[1]+1))]
+
+yeni="-".join(yeni.split(" ") #Önce boşluğa göre split et, - ile
+print "Değiştirilmiş hali=>",yeni

@@ -1,0 +1,22 @@
+sozluk={"isim":"Python",
+        "dogumyili":"1990",
+        "nesne":True,
+        "versiyon":3}
+
+
+#sözlük üzerinde döngü
+print "tipi=",type(sozluk)
+
+for (k,v) in sozluk.items():
+    print k,"=>",v
+
+print sozluk["versiyon"]         #spesifik bit anahtarýn deðerine eriþmek
+sozluk["gelistirici"]="Rossum"   #yeni key:value ilave etmek
+sozluk["dogumyili"]="1991"
+
+print sozluk                     #sözlüðü tek seferde yazdýrmak
+print len(sozluk)
+
+print sozluk.keys()
+print sozluk.values()
+
